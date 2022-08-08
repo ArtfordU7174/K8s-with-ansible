@@ -1,0 +1,1 @@
+kubeadm join 172.31.13.206:6443 --token oa8il3.ujv0uhq0bvu3sin8 --discovery-token-ca-cert-hash sha256:bc09cf2e4e74b0794744c99c4b20fe5771e51a366470523f15ea2625fd677d5b 

@@ -1,0 +1,9 @@
+---
+# tasks file for docker-install
+- name: apt cache
+  apt: 
+    update_cache: yes
+- name: "install docker"
+  apt: 
+    name: docker.io
+    state: present
